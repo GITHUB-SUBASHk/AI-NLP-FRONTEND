@@ -13,6 +13,8 @@ export default {
         primary: '#4B6EF6',
         background: { DEFAULT: '#ffffff' },
         foreground: { DEFAULT: '#18181b' },
+        muted: { DEFAULT: '#f4f4f5' },
+        'muted-foreground': { DEFAULT: '#71717a' },
       },
     },
   },
