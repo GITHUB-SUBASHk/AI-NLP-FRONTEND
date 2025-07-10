@@ -16,6 +16,8 @@ export default function App() {
           <Route path="/admin/plugins" element={<ProtectedRoute><Plugins /></ProtectedRoute>} />
         </Routes>
       </Router>
+      <div className="hidden text-foreground bg-background"></div>
+      {/* This hidden div ensures Tailwind generates the custom color utilities */}
     </AuthProvider>
   );
 }
