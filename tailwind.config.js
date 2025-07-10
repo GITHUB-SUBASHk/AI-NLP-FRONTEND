@@ -11,6 +11,8 @@ export default {
       },
       colors: {
         primary: '#4B6EF6',
+        background: '#ffffff', // or any color you want
+        foreground: '#18181b', // added for text-foreground
       },
     },
   },
