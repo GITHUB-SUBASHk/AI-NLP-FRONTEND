@@ -1,4 +1,5 @@
-// tailwind.config.js
+
+import (tailwindcss).config.js
 export default {
   content: [
     "./index.html",
