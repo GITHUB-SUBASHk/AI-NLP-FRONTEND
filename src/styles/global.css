@@ -3,4 +3,4 @@
 @tailwind utilities;
 
 body { 
-  @apply  text-gray-900 bg-white font-sans; }
+  @apply  bg-background, text-foreground, font-sans; }
