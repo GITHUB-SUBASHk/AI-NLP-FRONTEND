@@ -1,6 +1,17 @@
-@tailwind base; 
-@tailwind components; 
+@tailwind base;
+@tailwind components;
 @tailwind utilities;
 
-body { 
-  @apply  bg-background text-foreground font-sans; }
+@layer utilities {
+  .text-foreground {
+    color: theme('colors.foreground');
+  }
+
+  .bg-background {
+    background-color: theme('colors.background');
+  }
+}
+
+body {
+  @apply bg-background text-foreground font-sans;
+}
